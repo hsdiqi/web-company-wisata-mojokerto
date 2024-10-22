@@ -64,34 +64,55 @@ const assets = [
   },
   {
     id: 2,
-    name: "Asset 2",
-    // description: "This is asset 2",
+    name: "Alun-alun Mojokerto",
     asset: "../assets/alun-alun-mojokerto.webp",
   },
   {
     id: 3,
-    name: "Asset 3",
+    name: "Candi Bajangratu",
     // description: "This is asset 3",
     asset: "../assets/candi-bajang-ratu.png",
   },
   {
     id: 4,
-    name: "Asset 3",
+    name: "Candi Tikus",
     // description: "This is asset 3",
-    asset: "../assets/candi-bajang-ratu.png",
+    asset: "../assets/candi-tikus.jpg",
   },
   {
     id: 5,
-    name: "Asset 3",
+    name: "Museum Majapahit",
+    
     // description: "This is asset 3",
-    asset: "../assets/candi-bajang-ratu.png",
+    asset: "../assets/museum-majapahit.jpeg",
   },
   {
     id: 6,
-    name: "Asset 3",
+    name: "Pemandian Air Panas Padusan",
+    
     // description: "This is asset 3",
-    asset: "../assets/candi-bajang-ratu.png",
+    asset: "../assets/padusan.jpeg",
   },
+  {
+    id: 7,
+    name: "Patung Budha Tidur",
+    
+    // description: "This is asset 3",
+    asset: "../assets/budha-tidur.jpeg",
+  },
+  {
+    id: 8,
+    name: "Taman Ganjaran",
+    
+    // description: "This is asset 3",
+    asset: "../assets/ganjaran.jpeg",
+  },
+  // {
+  //   id: 5,
+  //   name: "Candi Waringin Lawang",
+  //   // description: "This is asset 3",
+  //   asset: "../assets/waringin-lawang.jpeg",
+  // },
 ];
 
 function createCard(image) {
@@ -108,6 +129,7 @@ function createCard(image) {
   card.style.height = "100%";
   card.style.boxShadow = "5px 5px 4px 0px rgba(56, 142, 60, 0.50)";
   card.style.padding =  "5px";
+  card.style.alignItems = "center";
 
 
   const img = document.createElement("img");
